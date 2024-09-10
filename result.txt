@@ -332,3 +332,1027 @@ Testing /Atlas/source ...
    Path: AtlasV2_FrontEnd/js/pdfjs2/shared/pdf.js, line 23538 
    Info: Avoid hardcoding values that are meant to be secret. Found a hardcoded string used in request.
 
+
+
+Testing /Atlas/source...
+
+Tested 129 dependencies for known issues, found 15 issues, 15 vulnerable paths.
+
+
+Issues to fix by upgrading:
+
+  Upgrade HtmlSanitizer@3.4.156 to HtmlSanitizer@8.0.723 to fix
+  ✗ Cross-site Scripting (XSS) [Medium Severity][https://security.snyk.io/vuln/SNYK-DOTNET-HTMLSANITIZER-5932097] in HtmlSanitizer@3.4.156
+    introduced by HtmlSanitizer@3.4.156
+  ✗ Cross-site Scripting (XSS) [High Severity][https://security.snyk.io/vuln/SNYK-DOTNET-HTMLSANITIZER-1055440] in HtmlSanitizer@3.4.156
+    introduced by HtmlSanitizer@3.4.156
+
+  Upgrade Magick.NET.Core@7.0.1 to Magick.NET.Core@13.3.0 to fix
+  ✗ Heap-based Buffer Overflow (new) [Critical Severity][https://security.snyk.io/vuln/SNYK-DOTNET-MAGICKNETCORE-7856102] in Magick.NET.Core@7.0.1
+    introduced by Magick.NET.Core@7.0.1
+
+  Upgrade Microsoft.IdentityModel.JsonWebTokens@5.4.0 to Microsoft.IdentityModel.JsonWebTokens@5.7.0 to fix
+  ✗ Resource Exhaustion [Medium Severity][https://security.snyk.io/vuln/SNYK-DOTNET-MICROSOFTIDENTITYMODELJSONWEBTOKENS-6148656] in Microsoft.IdentityModel.JsonWebTokens@5.4.0
+    introduced by Microsoft.IdentityModel.JsonWebTokens@5.4.0
+
+  Upgrade Microsoft.Rest.ClientRuntime@2.3.21 to Microsoft.Rest.ClientRuntime@2.3.24 to fix
+  ✗ Insertion of Sensitive Information into Log File [Medium Severity][https://security.snyk.io/vuln/SNYK-DOTNET-MICROSOFTRESTCLIENTRUNTIME-5768475] in Microsoft.Rest.ClientRuntime@2.3.21
+    introduced by Microsoft.Rest.ClientRuntime@2.3.21
+
+  Upgrade Newtonsoft.Json@12.0.3 to Newtonsoft.Json@13.0.1 to fix
+  ✗ Insecure Defaults [High Severity][https://security.snyk.io/vuln/SNYK-DOTNET-NEWTONSOFTJSON-2774678] in Newtonsoft.Json@12.0.3
+    introduced by Newtonsoft.Json@12.0.3
+
+  Upgrade SharpZipLib@0.86.0 to SharpZipLib@1.3.3 to fix
+  ✗ Directory Traversal [Medium Severity][https://security.snyk.io/vuln/SNYK-DOTNET-SHARPZIPLIB-2385702] in SharpZipLib@0.86.0
+    introduced by SharpZipLib@0.86.0
+  ✗ Arbitrary File Write via Archive Extraction (Zip Slip) [Medium Severity][https://security.snyk.io/vuln/SNYK-DOTNET-SHARPZIPLIB-60247] in SharpZipLib@0.86.0
+    introduced by SharpZipLib@0.86.0
+  ✗ Directory Traversal [High Severity][https://security.snyk.io/vuln/SNYK-DOTNET-SHARPZIPLIB-2385941] in SharpZipLib@0.86.0
+    introduced by SharpZipLib@0.86.0
+
+  Upgrade System.IdentityModel.Tokens.Jwt@5.4.0 to System.IdentityModel.Tokens.Jwt@5.7.0 to fix
+  ✗ Resource Exhaustion [Medium Severity][https://security.snyk.io/vuln/SNYK-DOTNET-SYSTEMIDENTITYMODELTOKENSJWT-6148655] in System.IdentityModel.Tokens.Jwt@5.4.0
+    introduced by System.IdentityModel.Tokens.Jwt@5.4.0
+
+  Upgrade System.Private.Uri@4.3.1 to System.Private.Uri@4.3.2 to fix
+  ✗ Denial of Service (DoS) [Medium Severity][https://security.snyk.io/vuln/SNYK-DOTNET-SYSTEMPRIVATEURI-174724] in System.Private.Uri@4.3.1
+    introduced by System.Private.Uri@4.3.1
+
+  Upgrade System.Security.Cryptography.Xml@4.5.0 to System.Security.Cryptography.Xml@4.7.1 to fix
+  ✗ Improper Restriction of XML External Entity Reference [Medium Severity][https://security.snyk.io/vuln/SNYK-DOTNET-SYSTEMSECURITYCRYPTOGRAPHYXML-2977914] in System.Security.Cryptography.Xml@4.5.0
+    introduced by System.Security.Cryptography.Xml@4.5.0
+
+  Upgrade iTextSharp@5.5.11 to iTextSharp@5.5.13.1 to fix
+  ✗ Denial of Service (DoS) [Medium Severity][https://security.snyk.io/vuln/SNYK-DOTNET-ITEXTSHARP-541280] in iTextSharp@5.5.11
+    introduced by iTextSharp@5.5.11
+  ✗ Insufficient Signature Validation [Medium Severity][https://security.snyk.io/vuln/SNYK-DOTNET-ITEXTSHARP-541283] in iTextSharp@5.5.11
+    introduced by iTextSharp@5.5.11
+  ✗ XML External Entity (XXE) Injection [High Severity][https://security.snyk.io/vuln/SNYK-DOTNET-ITEXTSHARP-540928] in iTextSharp@5.5.11
+    introduced by iTextSharp@5.5.11
+
+
+
+Organization:      atlasgov
+Package manager:   nuget
+Target file:       AtlasV2_Backend/Atlas.Business/packages.config
+Project name:      source
+Open source:       no
+Project path:      /Atlas/source
+Licenses:          enabled
+
+-------------------------------------------------------
+
+Testing /Atlas/source...
+
+Organization:      atlasgov
+Package manager:   nuget
+Target file:       AtlasV2_Backend/Atlas.ConsoleTest/packages.config
+Project name:      source
+Open source:       no
+Project path:      /Atlas/source
+Licenses:          enabled
+
+✔ Tested 1 dependencies for known issues, no vulnerable paths found.
+
+Next steps:
+- Run `snyk monitor` to be notified about new related vulnerabilities.
+- Run `snyk test` as part of your CI/test.
+
+-------------------------------------------------------
+
+Testing /Atlas/source...
+
+Tested 27 dependencies for known issues, found 1 issue, 1 vulnerable path.
+
+
+Issues to fix by upgrading:
+
+  Upgrade Newtonsoft.Json@12.0.3 to Newtonsoft.Json@13.0.1 to fix
+  ✗ Insecure Defaults [High Severity][https://security.snyk.io/vuln/SNYK-DOTNET-NEWTONSOFTJSON-2774678] in Newtonsoft.Json@12.0.3
+    introduced by Newtonsoft.Json@12.0.3
+
+
+
+Organization:      atlasgov
+Package manager:   nuget
+Target file:       AtlasV2_Backend/Atlas.CrossCutting/packages.config
+Project name:      source
+Open source:       no
+Project path:      /Atlas/source
+Licenses:          enabled
+
+-------------------------------------------------------
+
+Testing /Atlas/source...
+
+Tested 18 dependencies for known issues, found 1 issue, 1 vulnerable path.
+
+
+Issues to fix by upgrading:
+
+  Upgrade Newtonsoft.Json@12.0.3 to Newtonsoft.Json@13.0.1 to fix
+  ✗ Insecure Defaults [High Severity][https://security.snyk.io/vuln/SNYK-DOTNET-NEWTONSOFTJSON-2774678] in Newtonsoft.Json@12.0.3
+    introduced by Newtonsoft.Json@12.0.3
+
+
+
+Organization:      atlasgov
+Package manager:   nuget
+Target file:       AtlasV2_Backend/Atlas.Data/packages.config
+Project name:      source
+Open source:       no
+Project path:      /Atlas/source
+Licenses:          enabled
+
+-------------------------------------------------------
+
+Testing /Atlas/source...
+
+Tested 18 dependencies for known issues, found 3 issues, 3 vulnerable paths.
+
+
+Issues to fix by upgrading:
+
+  Upgrade Microsoft.Rest.ClientRuntime@2.3.21 to Microsoft.Rest.ClientRuntime@2.3.24 to fix
+  ✗ Insertion of Sensitive Information into Log File [Medium Severity][https://security.snyk.io/vuln/SNYK-DOTNET-MICROSOFTRESTCLIENTRUNTIME-5768475] in Microsoft.Rest.ClientRuntime@2.3.21
+    introduced by Microsoft.Rest.ClientRuntime@2.3.21
+
+  Upgrade Newtonsoft.Json@12.0.3 to Newtonsoft.Json@13.0.1 to fix
+  ✗ Insecure Defaults [High Severity][https://security.snyk.io/vuln/SNYK-DOTNET-NEWTONSOFTJSON-2774678] in Newtonsoft.Json@12.0.3
+    introduced by Newtonsoft.Json@12.0.3
+
+  Upgrade System.Private.Uri@4.3.1 to System.Private.Uri@4.3.2 to fix
+  ✗ Denial of Service (DoS) [Medium Severity][https://security.snyk.io/vuln/SNYK-DOTNET-SYSTEMPRIVATEURI-174724] in System.Private.Uri@4.3.1
+    introduced by System.Private.Uri@4.3.1
+
+
+
+Organization:      atlasgov
+Package manager:   nuget
+Target file:       AtlasV2_Backend/Atlas.Mail.Test/packages.config
+Project name:      source
+Open source:       no
+Project path:      /Atlas/source
+Licenses:          enabled
+
+-------------------------------------------------------
+
+Testing /Atlas/source...
+
+Organization:      atlasgov
+Package manager:   nuget
+Target file:       AtlasV2_Backend/Atlas.Performance/packages.config
+Project name:      source
+Open source:       no
+Project path:      /Atlas/source
+Licenses:          enabled
+
+✔ Tested 66 dependencies for known issues, no vulnerable paths found.
+
+Next steps:
+- Run `snyk monitor` to be notified about new related vulnerabilities.
+- Run `snyk test` as part of your CI/test.
+
+-------------------------------------------------------
+
+Testing /Atlas/source...
+
+Tested 26 dependencies for known issues, found 4 issues, 4 vulnerable paths.
+
+
+Issues to fix by upgrading:
+
+  Upgrade Microsoft.Data.OData@5.7.0 to Microsoft.Data.OData@5.8.4 to fix
+  ✗ Denial of Service (DoS) [High Severity][https://security.snyk.io/vuln/SNYK-DOTNET-MICROSOFTDATAODATA-72486] in Microsoft.Data.OData@5.7.0
+    introduced by Microsoft.Data.OData@5.7.0
+
+  Upgrade Newtonsoft.Json@10.0.2 to Newtonsoft.Json@13.0.1 to fix
+  ✗ Insecure Defaults [High Severity][https://security.snyk.io/vuln/SNYK-DOTNET-NEWTONSOFTJSON-2774678] in Newtonsoft.Json@10.0.2
+    introduced by Newtonsoft.Json@10.0.2
+
+  Upgrade System.IdentityModel.Tokens.Jwt@5.2.2 to System.IdentityModel.Tokens.Jwt@5.7.0 to fix
+  ✗ Resource Exhaustion [Medium Severity][https://security.snyk.io/vuln/SNYK-DOTNET-SYSTEMIDENTITYMODELTOKENSJWT-6148655] in System.IdentityModel.Tokens.Jwt@5.2.2
+    introduced by System.IdentityModel.Tokens.Jwt@5.2.2
+
+  Upgrade System.Security.Cryptography.X509Certificates@4.1.0 to System.Security.Cryptography.X509Certificates@4.1.2 to fix
+  ✗ Denial of Service (DoS) [High Severity][https://security.snyk.io/vuln/SNYK-DOTNET-SYSTEMSECURITYCRYPTOGRAPHYX509CERTIFICATES-6618055] in System.Security.Cryptography.X509Certificates@4.1.0
+    introduced by System.Security.Cryptography.X509Certificates@4.1.0
+
+
+
+Organization:      atlasgov
+Package manager:   nuget
+Target file:       AtlasV2_Backend/Atlas.Queue.MessageQueue/packages.config
+Project name:      source
+Open source:       no
+Project path:      /Atlas/source
+Licenses:          enabled
+
+-------------------------------------------------------
+
+Testing /Atlas/source...
+
+Tested 77 dependencies for known issues, found 9 issues, 9 vulnerable paths.
+
+
+Issues to fix by upgrading:
+
+  Upgrade Microsoft.Data.OData@5.7.0 to Microsoft.Data.OData@5.8.4 to fix
+  ✗ Denial of Service (DoS) [High Severity][https://security.snyk.io/vuln/SNYK-DOTNET-MICROSOFTDATAODATA-72486] in Microsoft.Data.OData@5.7.0
+    introduced by Microsoft.Data.OData@5.7.0
+
+  Upgrade Microsoft.Rest.ClientRuntime@2.3.17 to Microsoft.Rest.ClientRuntime@2.3.24 to fix
+  ✗ Insertion of Sensitive Information into Log File [Medium Severity][https://security.snyk.io/vuln/SNYK-DOTNET-MICROSOFTRESTCLIENTRUNTIME-5768475] in Microsoft.Rest.ClientRuntime@2.3.17
+    introduced by Microsoft.Rest.ClientRuntime@2.3.17
+
+  Upgrade Newtonsoft.Json@9.0.1 to Newtonsoft.Json@13.0.1 to fix
+  ✗ Insecure Defaults [High Severity][https://security.snyk.io/vuln/SNYK-DOTNET-NEWTONSOFTJSON-2774678] in Newtonsoft.Json@9.0.1
+    introduced by Newtonsoft.Json@9.0.1
+
+  Upgrade System.Net.Http@4.3.0 to System.Net.Http@4.3.4 to fix
+  ✗ Authentication Bypass [Medium Severity][https://security.snyk.io/vuln/SNYK-DOTNET-SYSTEMNETHTTP-60048] in System.Net.Http@4.3.0
+    introduced by System.Net.Http@4.3.0
+  ✗ Information Exposure [High Severity][https://security.snyk.io/vuln/SNYK-DOTNET-SYSTEMNETHTTP-72439] in System.Net.Http@4.3.0
+    introduced by System.Net.Http@4.3.0
+  ✗ Denial of Service (DoS) [High Severity][https://security.snyk.io/vuln/SNYK-DOTNET-SYSTEMNETHTTP-60045] in System.Net.Http@4.3.0
+    introduced by System.Net.Http@4.3.0
+  ✗ Improper Certificate Validation [High Severity][https://security.snyk.io/vuln/SNYK-DOTNET-SYSTEMNETHTTP-60046] in System.Net.Http@4.3.0
+    introduced by System.Net.Http@4.3.0
+  ✗ Privilege Escalation [High Severity][https://security.snyk.io/vuln/SNYK-DOTNET-SYSTEMNETHTTP-60047] in System.Net.Http@4.3.0
+    introduced by System.Net.Http@4.3.0
+
+  Upgrade System.Text.RegularExpressions@4.3.0 to System.Text.RegularExpressions@4.3.1 to fix
+  ✗ Regular Expression Denial of Service (ReDoS) [High Severity][https://security.snyk.io/vuln/SNYK-DOTNET-SYSTEMTEXTREGULAREXPRESSIONS-174708] in System.Text.RegularExpressions@4.3.0
+    introduced by System.Text.RegularExpressions@4.3.0
+
+
+
+Organization:      atlasgov
+Package manager:   nuget
+Target file:       AtlasV2_Backend/Atlas.Queue.RedisSearch/packages.config
+Project name:      source
+Open source:       no
+Project path:      /Atlas/source
+Licenses:          enabled
+
+-------------------------------------------------------
+
+Testing /Atlas/source...
+
+Tested 25 dependencies for known issues, found 3 issues, 3 vulnerable paths.
+
+
+Issues to fix by upgrading:
+
+  Upgrade Microsoft.Rest.ClientRuntime@2.3.21 to Microsoft.Rest.ClientRuntime@2.3.24 to fix
+  ✗ Insertion of Sensitive Information into Log File [Medium Severity][https://security.snyk.io/vuln/SNYK-DOTNET-MICROSOFTRESTCLIENTRUNTIME-5768475] in Microsoft.Rest.ClientRuntime@2.3.21
+    introduced by Microsoft.Rest.ClientRuntime@2.3.21
+
+  Upgrade Newtonsoft.Json@12.0.3 to Newtonsoft.Json@13.0.1 to fix
+  ✗ Insecure Defaults [High Severity][https://security.snyk.io/vuln/SNYK-DOTNET-NEWTONSOFTJSON-2774678] in Newtonsoft.Json@12.0.3
+    introduced by Newtonsoft.Json@12.0.3
+
+  Upgrade System.Private.Uri@4.3.1 to System.Private.Uri@4.3.2 to fix
+  ✗ Denial of Service (DoS) [Medium Severity][https://security.snyk.io/vuln/SNYK-DOTNET-SYSTEMPRIVATEURI-174724] in System.Private.Uri@4.3.1
+    introduced by System.Private.Uri@4.3.1
+
+
+
+Organization:      atlasgov
+Package manager:   nuget
+Target file:       AtlasV2_Backend/Atlas.Service.BackupGenerator/packages.config
+Project name:      source
+Open source:       no
+Project path:      /Atlas/source
+Licenses:          enabled
+
+-------------------------------------------------------
+
+Testing /Atlas/source...
+
+Tested 28 dependencies for known issues, found 3 issues, 3 vulnerable paths.
+
+
+Issues to fix by upgrading:
+
+  Upgrade Microsoft.Rest.ClientRuntime@2.3.20 to Microsoft.Rest.ClientRuntime@2.3.24 to fix
+  ✗ Insertion of Sensitive Information into Log File [Medium Severity][https://security.snyk.io/vuln/SNYK-DOTNET-MICROSOFTRESTCLIENTRUNTIME-5768475] in Microsoft.Rest.ClientRuntime@2.3.20
+    introduced by Microsoft.Rest.ClientRuntime@2.3.20
+
+  Upgrade Newtonsoft.Json@12.0.2 to Newtonsoft.Json@13.0.1 to fix
+  ✗ Insecure Defaults [High Severity][https://security.snyk.io/vuln/SNYK-DOTNET-NEWTONSOFTJSON-2774678] in Newtonsoft.Json@12.0.2
+    introduced by Newtonsoft.Json@12.0.2
+
+  Upgrade System.Private.Uri@4.3.1 to System.Private.Uri@4.3.2 to fix
+  ✗ Denial of Service (DoS) [Medium Severity][https://security.snyk.io/vuln/SNYK-DOTNET-SYSTEMPRIVATEURI-174724] in System.Private.Uri@4.3.1
+    introduced by System.Private.Uri@4.3.1
+
+
+
+Organization:      atlasgov
+Package manager:   nuget
+Target file:       AtlasV2_Backend/Atlas.Service.FileService/packages.config
+Project name:      source
+Open source:       no
+Project path:      /Atlas/source
+Licenses:          enabled
+
+-------------------------------------------------------
+
+Testing /Atlas/source...
+
+Tested 60 dependencies for known issues, found 3 issues, 3 vulnerable paths.
+
+
+Issues to fix by upgrading:
+
+  Upgrade Microsoft.Rest.ClientRuntime@2.3.21 to Microsoft.Rest.ClientRuntime@2.3.24 to fix
+  ✗ Insertion of Sensitive Information into Log File [Medium Severity][https://security.snyk.io/vuln/SNYK-DOTNET-MICROSOFTRESTCLIENTRUNTIME-5768475] in Microsoft.Rest.ClientRuntime@2.3.21
+    introduced by Microsoft.Rest.ClientRuntime@2.3.21
+
+  Upgrade Newtonsoft.Json@12.0.3 to Newtonsoft.Json@13.0.1 to fix
+  ✗ Insecure Defaults [High Severity][https://security.snyk.io/vuln/SNYK-DOTNET-NEWTONSOFTJSON-2774678] in Newtonsoft.Json@12.0.3
+    introduced by Newtonsoft.Json@12.0.3
+
+  Upgrade System.Private.Uri@4.3.1 to System.Private.Uri@4.3.2 to fix
+  ✗ Denial of Service (DoS) [Medium Severity][https://security.snyk.io/vuln/SNYK-DOTNET-SYSTEMPRIVATEURI-174724] in System.Private.Uri@4.3.1
+    introduced by System.Private.Uri@4.3.1
+
+
+
+Organization:      atlasgov
+Package manager:   nuget
+Target file:       AtlasV2_Backend/Atlas.Service.MailNotification/packages.config
+Project name:      source
+Open source:       no
+Project path:      /Atlas/source
+Licenses:          enabled
+
+-------------------------------------------------------
+
+Testing /Atlas/source...
+
+Tested 10 dependencies for known issues, found 2 issues, 2 vulnerable paths.
+
+
+Issues to fix by upgrading:
+
+  Upgrade Microsoft.Data.OData@5.7.0 to Microsoft.Data.OData@5.8.4 to fix
+  ✗ Denial of Service (DoS) [High Severity][https://security.snyk.io/vuln/SNYK-DOTNET-MICROSOFTDATAODATA-72486] in Microsoft.Data.OData@5.7.0
+    introduced by Microsoft.Data.OData@5.7.0
+
+  Upgrade Newtonsoft.Json@6.0.8 to Newtonsoft.Json@13.0.1 to fix
+  ✗ Insecure Defaults [High Severity][https://security.snyk.io/vuln/SNYK-DOTNET-NEWTONSOFTJSON-2774678] in Newtonsoft.Json@6.0.8
+    introduced by Newtonsoft.Json@6.0.8
+
+
+
+Organization:      atlasgov
+Package manager:   nuget
+Target file:       AtlasV2_Backend/Atlas.Service.Queue.QueueManager/packages.config
+Project name:      source
+Open source:       no
+Project path:      /Atlas/source
+Licenses:          enabled
+
+-------------------------------------------------------
+
+Testing /Atlas/source...
+
+Tested 69 dependencies for known issues, found 6 issues, 6 vulnerable paths.
+
+
+Issues to fix by upgrading:
+
+  Upgrade HtmlSanitizer@3.4.156 to HtmlSanitizer@8.0.723 to fix
+  ✗ Cross-site Scripting (XSS) [Medium Severity][https://security.snyk.io/vuln/SNYK-DOTNET-HTMLSANITIZER-5932097] in HtmlSanitizer@3.4.156
+    introduced by HtmlSanitizer@3.4.156
+  ✗ Cross-site Scripting (XSS) [High Severity][https://security.snyk.io/vuln/SNYK-DOTNET-HTMLSANITIZER-1055440] in HtmlSanitizer@3.4.156
+    introduced by HtmlSanitizer@3.4.156
+
+  Upgrade Magick.NET.Core@7.0.1 to Magick.NET.Core@13.3.0 to fix
+  ✗ Heap-based Buffer Overflow (new) [Critical Severity][https://security.snyk.io/vuln/SNYK-DOTNET-MAGICKNETCORE-7856102] in Magick.NET.Core@7.0.1
+    introduced by Magick.NET.Core@7.0.1
+
+  Upgrade Microsoft.Rest.ClientRuntime@2.3.21 to Microsoft.Rest.ClientRuntime@2.3.24 to fix
+  ✗ Insertion of Sensitive Information into Log File [Medium Severity][https://security.snyk.io/vuln/SNYK-DOTNET-MICROSOFTRESTCLIENTRUNTIME-5768475] in Microsoft.Rest.ClientRuntime@2.3.21
+    introduced by Microsoft.Rest.ClientRuntime@2.3.21
+
+  Upgrade Newtonsoft.Json@12.0.3 to Newtonsoft.Json@13.0.1 to fix
+  ✗ Insecure Defaults [High Severity][https://security.snyk.io/vuln/SNYK-DOTNET-NEWTONSOFTJSON-2774678] in Newtonsoft.Json@12.0.3
+    introduced by Newtonsoft.Json@12.0.3
+
+  Upgrade System.Private.Uri@4.3.1 to System.Private.Uri@4.3.2 to fix
+  ✗ Denial of Service (DoS) [Medium Severity][https://security.snyk.io/vuln/SNYK-DOTNET-SYSTEMPRIVATEURI-174724] in System.Private.Uri@4.3.1
+    introduced by System.Private.Uri@4.3.1
+
+
+
+Organization:      atlasgov
+Package manager:   nuget
+Target file:       AtlasV2_Backend/Atlas.TestConsole/packages.config
+Project name:      source
+Open source:       no
+Project path:      /Atlas/source
+Licenses:          enabled
+
+-------------------------------------------------------
+
+Testing /Atlas/source...
+
+Tested 46 dependencies for known issues, found 16 issues, 16 vulnerable paths.
+
+
+Issues to fix by upgrading:
+
+  Upgrade Microsoft.AspNet.Identity.Owin@2.2.1 to Microsoft.AspNet.Identity.Owin@2.2.4 to fix
+  ✗ Access Restriction Bypass [High Severity][https://security.snyk.io/vuln/SNYK-DOTNET-MICROSOFTASPNETIDENTITYOWIN-5772968] in Microsoft.AspNet.Identity.Owin@2.2.1
+    introduced by Microsoft.AspNet.Identity.Owin@2.2.1
+
+  Upgrade Microsoft.Owin@3.0.1 to Microsoft.Owin@4.2.2 to fix
+  ✗ Denial of Service (DoS) [High Severity][https://security.snyk.io/vuln/SNYK-DOTNET-MICROSOFTOWIN-3011423] in Microsoft.Owin@3.0.1
+    introduced by Microsoft.Owin@3.0.1
+  ✗ Security Bypass [High Severity][https://security.snyk.io/vuln/SNYK-DOTNET-MICROSOFTOWIN-1019387] in Microsoft.Owin@3.0.1
+    introduced by Microsoft.Owin@3.0.1
+
+  Upgrade Microsoft.Owin.Security.Cookies@3.0.1 to Microsoft.Owin.Security.Cookies@4.2.2 to fix
+  ✗ Denial of Service (DoS) [High Severity][https://security.snyk.io/vuln/SNYK-DOTNET-MICROSOFTOWINSECURITYCOOKIES-3011424] in Microsoft.Owin.Security.Cookies@3.0.1
+    introduced by Microsoft.Owin.Security.Cookies@3.0.1
+
+  Upgrade Newtonsoft.Json@9.0.1 to Newtonsoft.Json@13.0.1 to fix
+  ✗ Insecure Defaults [High Severity][https://security.snyk.io/vuln/SNYK-DOTNET-NEWTONSOFTJSON-2774678] in Newtonsoft.Json@9.0.1
+    introduced by Newtonsoft.Json@9.0.1
+
+  Upgrade RestSharp@105.2.2 to RestSharp@106.12.0 to fix
+  ✗ Regular Expression Denial of Service (ReDoS) [Medium Severity][https://security.snyk.io/vuln/SNYK-DOTNET-RESTSHARP-1316436] in RestSharp@105.2.2
+    introduced by RestSharp@105.2.2
+
+  Upgrade System.IdentityModel.Tokens.Jwt@4.0.0 to System.IdentityModel.Tokens.Jwt@5.7.0 to fix
+  ✗ Resource Exhaustion [Medium Severity][https://security.snyk.io/vuln/SNYK-DOTNET-SYSTEMIDENTITYMODELTOKENSJWT-6148655] in System.IdentityModel.Tokens.Jwt@4.0.0
+    introduced by System.IdentityModel.Tokens.Jwt@4.0.0
+
+  Upgrade bootstrap@3.0.0 to bootstrap@3.4.1 to fix
+  ✗ Cross-site Scripting (XSS) [Medium Severity][https://security.snyk.io/vuln/SNYK-DOTNET-BOOTSTRAP-450216] in bootstrap@3.0.0
+    introduced by bootstrap@3.0.0
+  ✗ Cross-site Scripting (XSS) [Medium Severity][https://security.snyk.io/vuln/SNYK-DOTNET-BOOTSTRAP-450234] in bootstrap@3.0.0
+    introduced by bootstrap@3.0.0
+  ✗ Cross-site Scripting (XSS) [Medium Severity][https://security.snyk.io/vuln/SNYK-DOTNET-BOOTSTRAP-450235] in bootstrap@3.0.0
+    introduced by bootstrap@3.0.0
+  ✗ Cross-site Scripting (XSS) [Medium Severity][https://security.snyk.io/vuln/SNYK-DOTNET-BOOTSTRAP-450236] in bootstrap@3.0.0
+    introduced by bootstrap@3.0.0
+
+  Upgrade jQuery@1.10.2 to jQuery@3.5.0 to fix
+  ✗ Cross-site Scripting (XSS) [Medium Severity][https://security.snyk.io/vuln/SNYK-DOTNET-JQUERY-565440] in jQuery@1.10.2
+    introduced by jQuery@1.10.2
+  ✗ Prototype Pollution [Medium Severity][https://security.snyk.io/vuln/SNYK-DOTNET-JQUERY-450226] in jQuery@1.10.2
+    introduced by jQuery@1.10.2
+  ✗ Cross-site Scripting (XSS) [Medium Severity][https://security.snyk.io/vuln/SNYK-DOTNET-JQUERY-450227] in jQuery@1.10.2
+    introduced by jQuery@1.10.2
+  ✗ Cross-site Scripting (XSS) [Medium Severity][https://security.snyk.io/vuln/SNYK-DOTNET-JQUERY-60118] in jQuery@1.10.2
+    introduced by jQuery@1.10.2
+
+  Upgrade jQuery.Validation@1.11.1 to jQuery.Validation@1.19.3 to fix
+  ✗ Regular Expression Denial of Service (ReDoS) [High Severity][https://security.snyk.io/vuln/SNYK-DOTNET-JQUERYVALIDATION-1056869] in jQuery.Validation@1.11.1
+    introduced by jQuery.Validation@1.11.1
+
+
+
+Organization:      atlasgov
+Package manager:   nuget
+Target file:       AtlasV2_Backend/Atlas.Web/packages.config
+Project name:      source
+Open source:       no
+Project path:      /Atlas/source
+Licenses:          enabled
+
+-------------------------------------------------------
+
+Testing /Atlas/source...
+
+Tested 99 dependencies for known issues, found 15 issues, 15 vulnerable paths.
+
+
+Issues to fix by upgrading:
+
+  Upgrade HtmlSanitizer@3.4.156 to HtmlSanitizer@8.0.723 to fix
+  ✗ Cross-site Scripting (XSS) [Medium Severity][https://security.snyk.io/vuln/SNYK-DOTNET-HTMLSANITIZER-5932097] in HtmlSanitizer@3.4.156
+    introduced by HtmlSanitizer@3.4.156
+  ✗ Cross-site Scripting (XSS) [High Severity][https://security.snyk.io/vuln/SNYK-DOTNET-HTMLSANITIZER-1055440] in HtmlSanitizer@3.4.156
+    introduced by HtmlSanitizer@3.4.156
+
+  Upgrade Microsoft.AspNet.Identity.Owin@2.2.3 to Microsoft.AspNet.Identity.Owin@2.2.4 to fix
+  ✗ Access Restriction Bypass [High Severity][https://security.snyk.io/vuln/SNYK-DOTNET-MICROSOFTASPNETIDENTITYOWIN-5772968] in Microsoft.AspNet.Identity.Owin@2.2.3
+    introduced by Microsoft.AspNet.Identity.Owin@2.2.3
+
+  Upgrade Microsoft.IdentityModel.JsonWebTokens@5.4.0 to Microsoft.IdentityModel.JsonWebTokens@5.7.0 to fix
+  ✗ Resource Exhaustion [Medium Severity][https://security.snyk.io/vuln/SNYK-DOTNET-MICROSOFTIDENTITYMODELJSONWEBTOKENS-6148656] in Microsoft.IdentityModel.JsonWebTokens@5.4.0
+    introduced by Microsoft.IdentityModel.JsonWebTokens@5.4.0
+
+  Upgrade Microsoft.Owin@4.1.1 to Microsoft.Owin@4.2.2 to fix
+  ✗ Denial of Service (DoS) [High Severity][https://security.snyk.io/vuln/SNYK-DOTNET-MICROSOFTOWIN-3011423] in Microsoft.Owin@4.1.1
+    introduced by Microsoft.Owin@4.1.1
+
+  Upgrade Microsoft.Owin.Security.Cookies@4.1.0 to Microsoft.Owin.Security.Cookies@4.2.2 to fix
+  ✗ Denial of Service (DoS) [High Severity][https://security.snyk.io/vuln/SNYK-DOTNET-MICROSOFTOWINSECURITYCOOKIES-3011424] in Microsoft.Owin.Security.Cookies@4.1.0
+    introduced by Microsoft.Owin.Security.Cookies@4.1.0
+
+  Upgrade Microsoft.Rest.ClientRuntime@2.3.21 to Microsoft.Rest.ClientRuntime@2.3.24 to fix
+  ✗ Insertion of Sensitive Information into Log File [Medium Severity][https://security.snyk.io/vuln/SNYK-DOTNET-MICROSOFTRESTCLIENTRUNTIME-5768475] in Microsoft.Rest.ClientRuntime@2.3.21
+    introduced by Microsoft.Rest.ClientRuntime@2.3.21
+
+  Upgrade Newtonsoft.Json@12.0.3 to Newtonsoft.Json@13.0.1 to fix
+  ✗ Insecure Defaults [High Severity][https://security.snyk.io/vuln/SNYK-DOTNET-NEWTONSOFTJSON-2774678] in Newtonsoft.Json@12.0.3
+    introduced by Newtonsoft.Json@12.0.3
+
+  Upgrade System.IdentityModel.Tokens.Jwt@5.4.0 to System.IdentityModel.Tokens.Jwt@5.7.0 to fix
+  ✗ Resource Exhaustion [Medium Severity][https://security.snyk.io/vuln/SNYK-DOTNET-SYSTEMIDENTITYMODELTOKENSJWT-6148655] in System.IdentityModel.Tokens.Jwt@5.4.0
+    introduced by System.IdentityModel.Tokens.Jwt@5.4.0
+
+  Upgrade System.Private.Uri@4.3.1 to System.Private.Uri@4.3.2 to fix
+  ✗ Denial of Service (DoS) [Medium Severity][https://security.snyk.io/vuln/SNYK-DOTNET-SYSTEMPRIVATEURI-174724] in System.Private.Uri@4.3.1
+    introduced by System.Private.Uri@4.3.1
+
+  Upgrade System.Text.Encodings.Web@4.6.0 to System.Text.Encodings.Web@4.7.2 to fix
+  ✗ Remote Code Execution (RCE) [Critical Severity][https://security.snyk.io/vuln/SNYK-DOTNET-SYSTEMTEXTENCODINGSWEB-1253267] in System.Text.Encodings.Web@4.6.0
+    introduced by System.Text.Encodings.Web@4.6.0
+
+  Upgrade jQuery@1.6.4 to jQuery@3.5.0 to fix
+  ✗ Cross-site Scripting (XSS) [Medium Severity][https://security.snyk.io/vuln/SNYK-DOTNET-JQUERY-565440] in jQuery@1.6.4
+    introduced by jQuery@1.6.4
+  ✗ Prototype Pollution [Medium Severity][https://security.snyk.io/vuln/SNYK-DOTNET-JQUERY-450226] in jQuery@1.6.4
+    introduced by jQuery@1.6.4
+  ✗ Cross-site Scripting (XSS) [Medium Severity][https://security.snyk.io/vuln/SNYK-DOTNET-JQUERY-450227] in jQuery@1.6.4
+    introduced by jQuery@1.6.4
+  ✗ Cross-site Scripting (XSS) [Medium Severity][https://security.snyk.io/vuln/SNYK-DOTNET-JQUERY-60118] in jQuery@1.6.4
+    introduced by jQuery@1.6.4
+
+
+
+Organization:      atlasgov
+Package manager:   nuget
+Target file:       AtlasV2_Backend/Atlas.WebApi/packages.config
+Project name:      source
+Open source:       no
+Project path:      /Atlas/source
+Licenses:          enabled
+
+-------------------------------------------------------
+
+Testing /Atlas/source...
+
+Organization:      atlasgov
+Package manager:   nuget
+Target file:       AtlasV2_Backend/Atlas.WebApi.Test/packages.config
+Project name:      source
+Open source:       no
+Project path:      /Atlas/source
+Licenses:          enabled
+
+✔ Tested 2 dependencies for known issues, no vulnerable paths found.
+
+Next steps:
+- Run `snyk monitor` to be notified about new related vulnerabilities.
+- Run `snyk test` as part of your CI/test.
+
+-------------------------------------------------------
+
+Testing /Atlas/source...
+
+Organization:      atlasgov
+Package manager:   nuget
+Target file:       AtlasV2_Backend/Atlas.WinManager/packages.config
+Project name:      source
+Open source:       no
+Project path:      /Atlas/source
+Licenses:          enabled
+
+✔ Tested 1 dependencies for known issues, no vulnerable paths found.
+
+Next steps:
+- Run `snyk monitor` to be notified about new related vulnerabilities.
+- Run `snyk test` as part of your CI/test.
+
+-------------------------------------------------------
+
+Testing /Atlas/source...
+
+Tested 3 dependencies for known issues, found 1 issue, 1 vulnerable path.
+
+
+Issues to fix by upgrading:
+
+  Upgrade Newtonsoft.Json@12.0.3 to Newtonsoft.Json@13.0.1 to fix
+  ✗ Insecure Defaults [High Severity][https://security.snyk.io/vuln/SNYK-DOTNET-NEWTONSOFTJSON-2774678] in Newtonsoft.Json@12.0.3
+    introduced by Newtonsoft.Json@12.0.3
+
+
+
+Organization:      atlasgov
+Package manager:   nuget
+Target file:       AtlasV2_Backend/CloudConvertWrapper/CloudConvert.NET/SourceCodes/03_Services/CloudConvert.Wrapper/packages.config
+Project name:      source
+Open source:       no
+Project path:      /Atlas/source
+Licenses:          enabled
+
+-------------------------------------------------------
+
+Testing /Atlas/source...
+
+Organization:      atlasgov
+Package manager:   nuget
+Target file:       AtlasV2_Backend/FileMigratorAzureBlob/packages.config
+Project name:      source
+Open source:       no
+Project path:      /Atlas/source
+Licenses:          enabled
+
+✔ Tested 1 dependencies for known issues, no vulnerable paths found.
+
+Next steps:
+- Run `snyk monitor` to be notified about new related vulnerabilities.
+- Run `snyk test` as part of your CI/test.
+
+-------------------------------------------------------
+
+Testing /Atlas/source...
+
+Organization:      atlasgov
+Package manager:   nuget
+Target file:       AtlasV2_Backend/Hexasoft.Zxcvbn/packages.config
+Project name:      source
+Open source:       no
+Project path:      /Atlas/source
+Licenses:          enabled
+
+✔ Tested 1 dependencies for known issues, no vulnerable paths found.
+
+Next steps:
+- Run `snyk monitor` to be notified about new related vulnerabilities.
+- Run `snyk test` as part of your CI/test.
+
+-------------------------------------------------------
+
+Testing /Atlas/source...
+
+Tested 19 dependencies for known issues, found 3 issues, 3 vulnerable paths.
+
+
+Issues to fix by upgrading:
+
+  Upgrade Microsoft.Rest.ClientRuntime@2.3.21 to Microsoft.Rest.ClientRuntime@2.3.24 to fix
+  ✗ Insertion of Sensitive Information into Log File [Medium Severity][https://security.snyk.io/vuln/SNYK-DOTNET-MICROSOFTRESTCLIENTRUNTIME-5768475] in Microsoft.Rest.ClientRuntime@2.3.21
+    introduced by Microsoft.Rest.ClientRuntime@2.3.21
+
+  Upgrade Newtonsoft.Json@12.0.3 to Newtonsoft.Json@13.0.1 to fix
+  ✗ Insecure Defaults [High Severity][https://security.snyk.io/vuln/SNYK-DOTNET-NEWTONSOFTJSON-2774678] in Newtonsoft.Json@12.0.3
+    introduced by Newtonsoft.Json@12.0.3
+
+  Upgrade System.Private.Uri@4.3.1 to System.Private.Uri@4.3.2 to fix
+  ✗ Denial of Service (DoS) [Medium Severity][https://security.snyk.io/vuln/SNYK-DOTNET-SYSTEMPRIVATEURI-174724] in System.Private.Uri@4.3.1
+    introduced by System.Private.Uri@4.3.1
+
+
+
+Organization:      atlasgov
+Package manager:   nuget
+Target file:       AtlasV2_Backend/IndexBuilder/packages.config
+Project name:      source
+Open source:       no
+Project path:      /Atlas/source
+Licenses:          enabled
+
+-------------------------------------------------------
+
+Testing /Atlas/source...
+
+Tested 24 dependencies for known issues, found 5 issues, 5 vulnerable paths.
+
+
+Issues to fix by upgrading:
+
+  Upgrade Microsoft.Rest.ClientRuntime@2.3.17 to Microsoft.Rest.ClientRuntime@2.3.24 to fix
+  ✗ Insertion of Sensitive Information into Log File [Medium Severity][https://security.snyk.io/vuln/SNYK-DOTNET-MICROSOFTRESTCLIENTRUNTIME-5768475] in Microsoft.Rest.ClientRuntime@2.3.17
+    introduced by Microsoft.Rest.ClientRuntime@2.3.17
+
+  Upgrade Newtonsoft.Json@12.0.3 to Newtonsoft.Json@13.0.1 to fix
+  ✗ Insecure Defaults [High Severity][https://security.snyk.io/vuln/SNYK-DOTNET-NEWTONSOFTJSON-2774678] in Newtonsoft.Json@12.0.3
+    introduced by Newtonsoft.Json@12.0.3
+
+  Upgrade iTextSharp@5.5.11 to iTextSharp@5.5.13.1 to fix
+  ✗ Denial of Service (DoS) [Medium Severity][https://security.snyk.io/vuln/SNYK-DOTNET-ITEXTSHARP-541280] in iTextSharp@5.5.11
+    introduced by iTextSharp@5.5.11
+  ✗ Insufficient Signature Validation [Medium Severity][https://security.snyk.io/vuln/SNYK-DOTNET-ITEXTSHARP-541283] in iTextSharp@5.5.11
+    introduced by iTextSharp@5.5.11
+  ✗ XML External Entity (XXE) Injection [High Severity][https://security.snyk.io/vuln/SNYK-DOTNET-ITEXTSHARP-540928] in iTextSharp@5.5.11
+    introduced by iTextSharp@5.5.11
+
+
+
+Organization:      atlasgov
+Package manager:   nuget
+Target file:       AtlasV2_Backend/KnowledgeBaseMigrator/packages.config
+Project name:      source
+Open source:       no
+Project path:      /Atlas/source
+Licenses:          enabled
+
+-------------------------------------------------------
+
+Testing /Atlas/source...
+
+Tested 46 dependencies for known issues, found 8 issues, 28 vulnerable paths.
+
+
+Issues to fix by upgrading:
+
+  Upgrade css-loader@2.1.1 to css-loader@6.9.0 to fix
+  ✗ Prototype Pollution [Low Severity][https://security.snyk.io/vuln/SNYK-JS-MINIMIST-2429795] in minimist@1.2.5
+    introduced by css-loader@2.1.1 > loader-utils@1.4.0 > json5@1.0.1 > minimist@1.2.5 and 1 other path(s)
+  ✗ Improper Input Validation [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-POSTCSS-5926692] in postcss@7.0.35
+    introduced by css-loader@2.1.1 > postcss@7.0.35 and 5 other path(s)
+  ✗ Prototype Pollution [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-JSON5-3182856] in json5@1.0.1
+    introduced by css-loader@2.1.1 > loader-utils@1.4.0 > json5@1.0.1 and 1 other path(s)
+  ✗ Regular Expression Denial of Service (ReDoS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-LOADERUTILS-3042992] in loader-utils@1.4.0
+    introduced by css-loader@2.1.1 > loader-utils@1.4.0 and 1 other path(s)
+  ✗ Regular Expression Denial of Service (ReDoS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-LOADERUTILS-3105943] in loader-utils@1.4.0
+    introduced by css-loader@2.1.1 > loader-utils@1.4.0 and 1 other path(s)
+  ✗ Regular Expression Denial of Service (ReDoS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-POSTCSS-1255640] in postcss@7.0.35
+    introduced by css-loader@2.1.1 > postcss@7.0.35 and 5 other path(s)
+  ✗ Regular Expression Denial of Service (ReDoS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-POSTCSS-1090595] in postcss@7.0.35
+    introduced by css-loader@2.1.1 > postcss@7.0.35 and 5 other path(s)
+  ✗ Prototype Pollution [High Severity][https://security.snyk.io/vuln/SNYK-JS-LOADERUTILS-3043105] in loader-utils@1.4.0
+    introduced by css-loader@2.1.1 > loader-utils@1.4.0 and 1 other path(s)
+
+  Upgrade style-loader@0.23.1 to style-loader@3.0.0 to fix
+  ✗ Prototype Pollution [Low Severity][https://security.snyk.io/vuln/SNYK-JS-MINIMIST-2429795] in minimist@1.2.5
+    introduced by css-loader@2.1.1 > loader-utils@1.4.0 > json5@1.0.1 > minimist@1.2.5 and 1 other path(s)
+  ✗ Prototype Pollution [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-JSON5-3182856] in json5@1.0.1
+    introduced by css-loader@2.1.1 > loader-utils@1.4.0 > json5@1.0.1 and 1 other path(s)
+  ✗ Regular Expression Denial of Service (ReDoS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-LOADERUTILS-3042992] in loader-utils@1.4.0
+    introduced by css-loader@2.1.1 > loader-utils@1.4.0 and 1 other path(s)
+  ✗ Regular Expression Denial of Service (ReDoS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-LOADERUTILS-3105943] in loader-utils@1.4.0
+    introduced by css-loader@2.1.1 > loader-utils@1.4.0 and 1 other path(s)
+  ✗ Prototype Pollution [High Severity][https://security.snyk.io/vuln/SNYK-JS-LOADERUTILS-3043105] in loader-utils@1.4.0
+    introduced by css-loader@2.1.1 > loader-utils@1.4.0 and 1 other path(s)
+
+
+
+Organization:      atlasgov
+Package manager:   npm
+Target file:       AtlasV2_Backend/SwaggerUI/package-lock.json
+Project name:      atlas.swagger.ui
+Open source:       no
+Project path:      /Atlas/source
+Licenses:          enabled
+
+-------------------------------------------------------
+
+Testing /Atlas/source...
+
+Tested 2 dependencies for known issues, found 1 issue, 1 vulnerable path.
+
+
+Issues to fix by upgrading:
+
+  Upgrade Newtonsoft.Json@12.0.3 to Newtonsoft.Json@13.0.1 to fix
+  ✗ Insecure Defaults [High Severity][https://security.snyk.io/vuln/SNYK-DOTNET-NEWTONSOFTJSON-2774678] in Newtonsoft.Json@12.0.3
+    introduced by Newtonsoft.Json@12.0.3
+
+
+
+Organization:      atlasgov
+Package manager:   nuget
+Target file:       AtlasV2_Backend/i18next-net/packages.config
+Project name:      source
+Open source:       no
+Project path:      /Atlas/source
+Licenses:          enabled
+
+-------------------------------------------------------
+
+Testing /Atlas/source...
+
+Tested 916 dependencies for known issues, found 65 issues, 279 vulnerable paths.
+
+
+Issues to fix by upgrading:
+
+  Upgrade @babel/plugin-transform-runtime@7.13.10 to @babel/plugin-transform-runtime@7.22.7 to fix
+  ✗ Regular Expression Denial of Service (ReDoS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-BROWSERSLIST-1090194] in browserslist@4.16.3
+    introduced by @babel/plugin-transform-runtime@7.13.10 > babel-plugin-polyfill-corejs3@0.1.7 > core-js-compat@3.10.0 > browserslist@4.16.3 and 12 other path(s)
+  ✗ Regular Expression Denial of Service (ReDoS) [High Severity][https://security.snyk.io/vuln/SNYK-JS-SEMVER-3247795] in semver@6.3.0
+    introduced by @babel/plugin-transform-runtime@7.13.10 > semver@6.3.0 and 15 other path(s)
+  ✗ Incomplete List of Disallowed Inputs [Critical Severity][https://security.snyk.io/vuln/SNYK-JS-BABELTRAVERSE-5962462] in @babel/traverse@7.13.13
+    introduced by react-items-carousel@2.8.0 > styled-components@4.4.1 > @babel/traverse@7.13.13 and 7 other path(s)
+
+  Upgrade @emotion/core@10.1.1 to @emotion/core@11.0.0 to fix
+  ✗ Regular Expression Denial of Service (ReDoS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-PATHPARSE-1077067] in path-parse@1.0.6
+    introduced by @babel/plugin-transform-runtime@7.13.10 > babel-plugin-polyfill-corejs2@0.1.10 > @babel/helper-define-polyfill-provider@0.1.5 > resolve@1.20.0 > path-parse@1.0.6 and 5 other path(s)
+
+  Upgrade @emotion/styled@10.0.27 to @emotion/styled@11.0.0 to fix
+  ✗ Regular Expression Denial of Service (ReDoS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-PATHPARSE-1077067] in path-parse@1.0.6
+    introduced by @babel/plugin-transform-runtime@7.13.10 > babel-plugin-polyfill-corejs2@0.1.10 > @babel/helper-define-polyfill-provider@0.1.5 > resolve@1.20.0 > path-parse@1.0.6 and 5 other path(s)
+
+  Upgrade @nivo/bar@0.80.0 to @nivo/bar@0.81.0 to fix
+  ✗ Regular Expression Denial of Service (ReDoS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-D3COLOR-1076592] in d3-color@2.0.0
+    introduced by @nivo/core@0.80.0 > d3-color@2.0.0 and 23 other path(s)
+
+  Upgrade @nivo/core@0.80.0 to @nivo/core@0.81.0 to fix
+  ✗ Regular Expression Denial of Service (ReDoS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-D3COLOR-1076592] in d3-color@2.0.0
+    introduced by @nivo/core@0.80.0 > d3-color@2.0.0 and 23 other path(s)
+
+  Upgrade @nivo/pie@0.80.0 to @nivo/pie@0.81.0 to fix
+  ✗ Regular Expression Denial of Service (ReDoS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-D3COLOR-1076592] in d3-color@2.0.0
+    introduced by @nivo/core@0.80.0 > d3-color@2.0.0 and 23 other path(s)
+
+  Upgrade axios@0.19.2 to axios@1.6.8 to fix
+  ✗ Information Exposure [Low Severity][https://security.snyk.io/vuln/SNYK-JS-FOLLOWREDIRECTS-2396346] in follow-redirects@1.5.10
+    introduced by axios@0.19.2 > follow-redirects@1.5.10
+  ✗ Information Exposure [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-FOLLOWREDIRECTS-6444610] in follow-redirects@1.5.10
+    introduced by axios@0.19.2 > follow-redirects@1.5.10
+  ✗ Regular Expression Denial of Service (ReDoS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-6124857] in axios@0.19.2
+    introduced by axios@0.19.2
+  ✗ Information Exposure [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-FOLLOWREDIRECTS-2332181] in follow-redirects@1.5.10
+    introduced by axios@0.19.2 > follow-redirects@1.5.10
+  ✗ Server-Side Request Forgery (SSRF) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-1038255] in axios@0.19.2
+    introduced by axios@0.19.2
+  ✗ Improper Input Validation [High Severity][https://security.snyk.io/vuln/SNYK-JS-FOLLOWREDIRECTS-6141137] in follow-redirects@1.5.10
+    introduced by axios@0.19.2 > follow-redirects@1.5.10
+  ✗ Cross-site Request Forgery (CSRF) [High Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-6032459] in axios@0.19.2
+    introduced by axios@0.19.2
+  ✗ Regular Expression Denial of Service (ReDoS) [High Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-1579269] in axios@0.19.2
+    introduced by axios@0.19.2
+
+  Upgrade bootstrap@3.4.1 to bootstrap@5.0.0 to fix
+  ✗ Cross-site Scripting (XSS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-BOOTSTRAP-7444593] in bootstrap@3.4.1
+    introduced by bootstrap@3.4.1
+  ✗ Cross-site Scripting [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-BOOTSTRAP-7444617] in bootstrap@3.4.1
+    introduced by bootstrap@3.4.1
+
+  Upgrade css-minimizer-webpack-plugin@1.3.0 to css-minimizer-webpack-plugin@6.0.0 to fix
+  ✗ Prototype Pollution [Low Severity][https://security.snyk.io/vuln/SNYK-JS-MINIMIST-2429795] in minimist@1.2.5
+    introduced by eslint-plugin-unicorn@23.0.0 > eslint-template-visitor@2.3.2 > @babel/core@7.13.14 > json5@2.2.0 > minimist@1.2.5 and 1 other path(s)
+  ✗ Regular Expression Denial of Service (ReDoS) [Low Severity][https://security.snyk.io/vuln/SNYK-JS-TAR-1536758] in tar@6.1.0
+    introduced by css-minimizer-webpack-plugin@1.3.0 > cacache@15.0.6 > tar@6.1.0
+  ✗ Cross-site Scripting (XSS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-SERIALIZEJAVASCRIPT-6147607] in serialize-javascript@5.0.1
+    introduced by css-minimizer-webpack-plugin@1.3.0 > serialize-javascript@5.0.1
+  ✗ Regular Expression Denial of Service (ReDoS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-BROWSERSLIST-1090194] in browserslist@4.16.3
+    introduced by @babel/plugin-transform-runtime@7.13.10 > babel-plugin-polyfill-corejs3@0.1.7 > core-js-compat@3.10.0 > browserslist@4.16.3 and 12 other path(s)
+  ✗ Missing Release of Resource after Effective Lifetime [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-INFLIGHT-6095116] in inflight@1.0.6
+    introduced by css-minimizer-webpack-plugin@1.3.0 > cacache@15.0.6 > glob@7.1.6 > inflight@1.0.6 and 2 other path(s)
+  ✗ Regular Expression Denial of Service (ReDoS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-MINIMATCH-3050818] in minimatch@3.0.4
+    introduced by css-minimizer-webpack-plugin@1.3.0 > cacache@15.0.6 > glob@7.1.6 > minimatch@3.0.4 and 2 other path(s)
+  ✗ Regular Expression Denial of Service (ReDoS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-POSTCSS-1090595] in postcss@7.0.35
+    introduced by css-minimizer-webpack-plugin@1.3.0 > cssnano@4.1.11 > postcss@7.0.35 and 31 other path(s)
+  ✗ Regular Expression Denial of Service (ReDoS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-POSTCSS-1255640] in postcss@7.0.35
+    introduced by css-minimizer-webpack-plugin@1.3.0 > cssnano@4.1.11 > postcss@7.0.35 and 31 other path(s)
+  ✗ Improper Input Validation [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-POSTCSS-5926692] in postcss@7.0.35
+    introduced by css-minimizer-webpack-plugin@1.3.0 > cssnano@4.1.11 > postcss@7.0.35 and 31 other path(s)
+  ✗ Uncontrolled Resource Consumption ('Resource Exhaustion') [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-TAR-6476909] in tar@6.1.0
+    introduced by css-minimizer-webpack-plugin@1.3.0 > cacache@15.0.6 > tar@6.1.0
+  ✗ Regular Expression Denial of Service (ReDoS) [High Severity][https://security.snyk.io/vuln/SNYK-JS-NTHCHECK-1586032] in nth-check@1.0.2
+    introduced by css-minimizer-webpack-plugin@1.3.0 > cssnano@4.1.11 > cssnano-preset-default@4.0.8 > postcss-svgo@4.0.3 > svgo@1.3.2 > css-select@2.1.0 > nth-check@1.0.2
+  ✗ Regular Expression Denial of Service (ReDoS) [High Severity][https://security.snyk.io/vuln/SNYK-JS-SEMVER-3247795] in semver@6.3.0
+    introduced by @babel/plugin-transform-runtime@7.13.10 > semver@6.3.0 and 15 other path(s)
+  ✗ Arbitrary File Overwrite [High Severity][https://security.snyk.io/vuln/SNYK-JS-TAR-1536528] in tar@6.1.0
+    introduced by css-minimizer-webpack-plugin@1.3.0 > cacache@15.0.6 > tar@6.1.0
+  ✗ Arbitrary File Overwrite [High Severity][https://security.snyk.io/vuln/SNYK-JS-TAR-1536531] in tar@6.1.0
+    introduced by css-minimizer-webpack-plugin@1.3.0 > cacache@15.0.6 > tar@6.1.0
+  ✗ Arbitrary File Write [High Severity][https://security.snyk.io/vuln/SNYK-JS-TAR-1579147] in tar@6.1.0
+    introduced by css-minimizer-webpack-plugin@1.3.0 > cacache@15.0.6 > tar@6.1.0
+  ✗ Arbitrary File Write [High Severity][https://security.snyk.io/vuln/SNYK-JS-TAR-1579152] in tar@6.1.0
+    introduced by css-minimizer-webpack-plugin@1.3.0 > cacache@15.0.6 > tar@6.1.0
+  ✗ Arbitrary File Write [High Severity][https://security.snyk.io/vuln/SNYK-JS-TAR-1579155] in tar@6.1.0
+    introduced by css-minimizer-webpack-plugin@1.3.0 > cacache@15.0.6 > tar@6.1.0
+
+  Upgrade eslint-plugin-unicorn@23.0.0 to eslint-plugin-unicorn@48.0.0 to fix
+  ✗ Prototype Pollution [Low Severity][https://security.snyk.io/vuln/SNYK-JS-MINIMIST-2429795] in minimist@1.2.5
+    introduced by eslint-plugin-unicorn@23.0.0 > eslint-template-visitor@2.3.2 > @babel/core@7.13.14 > json5@2.2.0 > minimist@1.2.5 and 1 other path(s)
+  ✗ Regular Expression Denial of Service (ReDoS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-BROWSERSLIST-1090194] in browserslist@4.16.3
+    introduced by @babel/plugin-transform-runtime@7.13.10 > babel-plugin-polyfill-corejs3@0.1.7 > core-js-compat@3.10.0 > browserslist@4.16.3 and 12 other path(s)
+  ✗ Prototype Pollution [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-JSON5-3182856] in json5@2.2.0
+    introduced by eslint-plugin-unicorn@23.0.0 > eslint-template-visitor@2.3.2 > @babel/core@7.13.14 > json5@2.2.0
+  ✗ Regular Expression Denial of Service (ReDoS) [High Severity][https://security.snyk.io/vuln/SNYK-JS-SEMVER-3247795] in semver@6.3.0
+    introduced by @babel/plugin-transform-runtime@7.13.10 > semver@6.3.0 and 15 other path(s)
+  ✗ Incomplete List of Disallowed Inputs [Critical Severity][https://security.snyk.io/vuln/SNYK-JS-BABELTRAVERSE-5962462] in @babel/traverse@7.13.13
+    introduced by react-items-carousel@2.8.0 > styled-components@4.4.1 > @babel/traverse@7.13.13 and 7 other path(s)
+
+  Upgrade husky@4.3.8 to husky@5.0.0 to fix
+  ✗ Regular Expression Denial of Service (ReDoS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-SEMVERREGEX-2824151] in semver-regex@3.1.2
+    introduced by husky@4.3.8 > find-versions@4.0.0 > semver-regex@3.1.2
+  ✗ Regular Expression Denial of Service (ReDoS) [High Severity][https://security.snyk.io/vuln/SNYK-JS-SEMVERREGEX-1584358] in semver-regex@3.1.2
+    introduced by husky@4.3.8 > find-versions@4.0.0 > semver-regex@3.1.2
+  ✗ Regular Expression Denial of Service (ReDoS) [High Severity][https://security.snyk.io/vuln/SNYK-JS-SEMVERREGEX-1585624] in semver-regex@3.1.2
+    introduced by husky@4.3.8 > find-versions@4.0.0 > semver-regex@3.1.2
+
+  Upgrade i18next-http-backend@1.2.1 to i18next-http-backend@1.2.3 to fix
+  ✗ Information Exposure [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-NODEFETCH-2342118] in node-fetch@2.6.1
+    introduced by i18next-http-backend@1.2.1 > node-fetch@2.6.1 and 1 other path(s)
+
+  Upgrade lint-staged@10.5.4 to lint-staged@15.2.4 to fix
+  ✗ Uncontrolled resource consumption [High Severity][https://security.snyk.io/vuln/SNYK-JS-BRACES-6838727] in braces@3.0.2
+    introduced by lint-staged@10.5.4 > micromatch@4.0.2 > braces@3.0.2
+  ✗ Inefficient Regular Expression Complexity [High Severity][https://security.snyk.io/vuln/SNYK-JS-MICROMATCH-6838728] in micromatch@4.0.2
+    introduced by lint-staged@10.5.4 > micromatch@4.0.2
+  ✗ Regular Expression Denial of Service (ReDoS) [High Severity][https://security.snyk.io/vuln/SNYK-JS-ANSIREGEX-1583908] in ansi-regex@2.1.1
+    introduced by babel-preset-stage-1@6.24.1 > babel-plugin-transform-class-constructor-call@6.24.1 > babel-template@6.26.0 > babel-traverse@6.26.0 > babel-code-frame@6.26.0 > chalk@1.1.3 > has-ansi@2.0.0 > ansi-regex@2.1.1 and 37 other path(s)
+
+  Upgrade react-froala-wysiwyg@2.9.3 to react-froala-wysiwyg@4.2.2 to fix
+  ✗ Cross-site Scripting (XSS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-FROALAEDITOR-5902996] in froala-editor@2.9.3
+    introduced by react-froala-wysiwyg@2.9.3 > froala-editor@2.9.3
+  ✗ Cross-site Scripting (XSS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-FROALAEDITOR-6009154] in froala-editor@2.9.3
+    introduced by react-froala-wysiwyg@2.9.3 > froala-editor@2.9.3
+  ✗ Cross-site Scripting (XSS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-FROALAEDITOR-1768466] in froala-editor@2.9.3
+    introduced by react-froala-wysiwyg@2.9.3 > froala-editor@2.9.3
+  ✗ Cross-site Scripting (XSS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-FROALAEDITOR-1090603] in froala-editor@2.9.3
+    introduced by react-froala-wysiwyg@2.9.3 > froala-editor@2.9.3
+  ✗ Cross-site Scripting (XSS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-FROALAEDITOR-1015371] in froala-editor@2.9.3
+    introduced by react-froala-wysiwyg@2.9.3 > froala-editor@2.9.3
+  ✗ Cross-site Scripting (XSS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-FROALAEDITOR-598256] in froala-editor@2.9.3
+    introduced by react-froala-wysiwyg@2.9.3 > froala-editor@2.9.3
+  ✗ Cross-site Scripting (XSS) [High Severity][https://security.snyk.io/vuln/SNYK-JS-FROALAEDITOR-1320082] in froala-editor@2.9.3
+    introduced by react-froala-wysiwyg@2.9.3 > froala-editor@2.9.3
+
+  Upgrade react-i18next@11.8.12 to react-i18next@11.8.13 to fix
+  ✗ Regular Expression Denial of Service (ReDoS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-HTMLPARSESTRINGIFY2-1079307] in html-parse-stringify2@2.0.1
+    introduced by react-i18next@11.8.12 > html-parse-stringify2@2.0.1
+
+  Upgrade react-instantsearch@4.5.2 to react-instantsearch@5.2.0 to fix
+  ✗ Prototype Pollution [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-ALGOLIASEARCHHELPER-1570421] in algoliasearch-helper@2.28.1
+    introduced by react-instantsearch@4.5.2 > algoliasearch-helper@2.28.1
+  ✗ Prototype Poisoning [High Severity][https://security.snyk.io/vuln/SNYK-JS-QS-3153490] in qs@6.5.2
+    introduced by @aspnet/signalr@1.1.4 > request@2.88.2 > qs@6.5.2 and 1 other path(s)
+  ✗ Regular Expression Denial of Service (ReDoS) [High Severity][https://security.snyk.io/vuln/SNYK-JS-SEMVER-3247795] in semver@6.3.0
+    introduced by @babel/plugin-transform-runtime@7.13.10 > semver@6.3.0 and 15 other path(s)
+
+  Upgrade react-joyride@1.11.4 to react-joyride@2.3.0 to fix
+  ✗ Prototype Pollution [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-NESTEDPROPERTY-1022154] in nested-property@0.0.7
+    introduced by react-joyride@1.11.4 > nested-property@0.0.7
+
+
+Issues with no direct upgrade or patch:
+  ✗ Incomplete List of Disallowed Inputs [Critical Severity][https://security.snyk.io/vuln/SNYK-JS-BABELTRAVERSE-5962463] in babel-traverse@6.26.0
+    introduced by babel-preset-stage-1@6.24.1 > babel-plugin-transform-class-constructor-call@6.24.1 > babel-template@6.26.0 > babel-traverse@6.26.0 and 15 other path(s)
+  No upgrade or patch available
+  ✗ Information Exposure [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-EVENTSOURCE-2823375] in eventsource@1.1.0
+    introduced by @aspnet/signalr@1.1.4 > eventsource@1.1.0
+  This issue was fixed in versions: 1.1.1, 2.0.2
+  ✗ Prototype Pollution [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-FINEUPLOADER-585902] in fine-uploader@5.16.2
+    introduced by fine-uploader@5.16.2
+  No upgrade or patch available
+  ✗ Regular Expression Denial of Service (ReDoS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-HOSTEDGITINFO-1088355] in hosted-git-info@2.8.8
+    introduced by eslint-plugin-unicorn@23.0.0 > read-pkg-up@7.0.1 > read-pkg@5.2.0 > normalize-package-data@2.5.0 > hosted-git-info@2.8.8
+  This issue was fixed in versions: 3.0.8, 2.8.9
+  ✗ Prototype Pollution [High Severity][https://security.snyk.io/vuln/SNYK-JS-JSONSCHEMA-1920922] in json-schema@0.2.3
+    introduced by @aspnet/signalr@1.1.4 > request@2.88.2 > http-signature@1.2.0 > jsprim@1.4.1 > json-schema@0.2.3
+  This issue was fixed in versions: 0.4.0
+  ✗ Regular Expression Denial of Service (ReDoS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-RAMDA-1582370] in ramda@0.23.0
+    introduced by react-toolbox@2.0.0-beta.13 > ramda@0.23.0
+  This issue was fixed in versions: 0.27.2
+  ✗ Server-side Request Forgery (SSRF) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-REQUEST-3361831] in request@2.88.2
+    introduced by @aspnet/signalr@1.1.4 > request@2.88.2
+  No upgrade or patch available
+  ✗ Prototype Pollution [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-TOUGHCOOKIE-5672873] in tough-cookie@2.5.0
+    introduced by @aspnet/signalr@1.1.4 > request@2.88.2 > tough-cookie@2.5.0
+  This issue was fixed in versions: 4.1.3
+  ✗ Open Redirect [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-URLPARSE-1533425] in url-parse@1.5.1
+    introduced by @aspnet/signalr@1.1.4 > eventsource@1.1.0 > original@1.0.2 > url-parse@1.5.1
+  This issue was fixed in versions: 1.5.2
+  ✗ Access Restriction Bypass [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-URLPARSE-2401205] in url-parse@1.5.1
+    introduced by @aspnet/signalr@1.1.4 > eventsource@1.1.0 > original@1.0.2 > url-parse@1.5.1
+  This issue was fixed in versions: 1.5.6
+  ✗ Authorization Bypass [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-URLPARSE-2407759] in url-parse@1.5.1
+    introduced by @aspnet/signalr@1.1.4 > eventsource@1.1.0 > original@1.0.2 > url-parse@1.5.1
+  This issue was fixed in versions: 1.5.8
+  ✗ Improper Input Validation [High Severity][https://security.snyk.io/vuln/SNYK-JS-URLPARSE-2407770] in url-parse@1.5.1
+    introduced by @aspnet/signalr@1.1.4 > eventsource@1.1.0 > original@1.0.2 > url-parse@1.5.1
+  This issue was fixed in versions: 1.5.9
+  ✗ Authorization Bypass Through User-Controlled Key [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-URLPARSE-2412697] in url-parse@1.5.1
+    introduced by @aspnet/signalr@1.1.4 > eventsource@1.1.0 > original@1.0.2 > url-parse@1.5.1
+  This issue was fixed in versions: 1.5.7
+  ✗ Regular Expression Denial of Service (ReDoS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-WS-1296835] in ws@6.2.1
+    introduced by @aspnet/signalr@1.1.4 > ws@6.2.1
+  This issue was fixed in versions: 7.4.6, 6.2.2, 5.2.3
+  ✗ Denial of Service (DoS) [High Severity][https://security.snyk.io/vuln/SNYK-JS-WS-7266574] in ws@6.2.1
+    introduced by @aspnet/signalr@1.1.4 > ws@6.2.1
+  This issue was fixed in versions: 5.2.4, 6.2.3, 7.5.10, 8.17.1
+  ✗ Regular Expression Denial of Service (ReDoS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-ZXCVBN-3257741] in zxcvbn@4.4.2
+    introduced by zxcvbn@4.4.2
+  No upgrade or patch available
+
+
+
+Organization:      atlasgov
+Package manager:   npm
+Target file:       AtlasV2_FrontEnd/package-lock.json
+Project name:      atlas-app
+Open source:       no
+Project path:      /Atlas/source
+Licenses:          enabled
+
+
+Tested 25 projects, 19 contained vulnerable paths.
+
+
