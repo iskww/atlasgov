@@ -1,0 +1,334 @@
+Testing /Atlas/source ...
+
+ ✗ [Low] Insufficient postMessage Validation 
+   Path: AtlasV2_Backend/Atlas.WebApi/Scripts/jquery.signalR-2.2.2.js, line 1935 
+   Info: The origin of the received message is not checked. This means any site (even malicious) can send message to this window. If you don't expect this, consider checking the origin of sender.
+
+ ✗ [Low] Insufficient postMessage Validation 
+   Path: AtlasV2_FrontEnd/src/views/settings/integrations.js, line 102 
+   Info: The origin of the received message is not checked. This means any site (even malicious) can send message to this window. If you don't expect this, consider checking the origin of sender.
+
+ ✗ [Low] Insufficient postMessage Validation 
+   Path: AtlasV2_FrontEnd/src/views/Lockscreen.js, line 336 
+   Info: The origin of the received message is not checked. This means any site (even malicious) can send message to this window. If you don't expect this, consider checking the origin of sender.
+
+ ✗ [Low] Insufficient postMessage Validation 
+   Path: AtlasV2_FrontEnd/src/views/settings/admin/AllowedDomainsPanel.js, line 233 
+   Info: The origin of the received message is not checked. This means any site (even malicious) can send message to this window. If you don't expect this, consider checking the origin of sender.
+
+ ✗ [Low] Insufficient postMessage Validation 
+   Path: AtlasV2_FrontEnd/src/views/settings/admin/AllowedDomainsPanel.js, line 298 
+   Info: The origin of the received message is not checked. This means any site (even malicious) can send message to this window. If you don't expect this, consider checking the origin of sender.
+
+ ✗ [Low] Insufficient postMessage Validation 
+   Path: AtlasV2_FrontEnd/src/views/Login.js, line 385 
+   Info: The origin of the received message is not checked. This means any site (even malicious) can send message to this window. If you don't expect this, consider checking the origin of sender.
+
+ ✗ [Low] Insufficient postMessage Validation 
+   Path: AtlasV2_FrontEnd/src/views/user/NewRegistration.js, line 572 
+   Info: The origin of the received message is not checked. This means any site (even malicious) can send message to this window. If you don't expect this, consider checking the origin of sender.
+
+ ✗ [Low] Anti-forgery token validation disabled 
+   Path: AtlasV2_Backend/Atlas.WebApi/Areas/HelpPage/Controllers/HelpController.cs, line 28 
+   Info: This ASP.NET MVC action should use an anti-forgery validation attribute. Not using this attribute disables Cross Site Request Forgery (CSRF) protection and allows CSRF attacks.
+
+ ✗ [Low] Anti-forgery token validation disabled 
+   Path: AtlasV2_Backend/Atlas.WebApi/Areas/HelpPage/Controllers/HelpController.cs, line 34 
+   Info: This ASP.NET MVC action should use an anti-forgery validation attribute. Not using this attribute disables Cross Site Request Forgery (CSRF) protection and allows CSRF attacks.
+
+ ✗ [Low] Anti-forgery token validation disabled 
+   Path: AtlasV2_Backend/Atlas.WebApi/Areas/HelpPage/Controllers/HelpController.cs, line 48 
+   Info: This ASP.NET MVC action should use an anti-forgery validation attribute. Not using this attribute disables Cross Site Request Forgery (CSRF) protection and allows CSRF attacks.
+
+ ✗ [Low] Anti-forgery token validation disabled 
+   Path: AtlasV2_Backend/Atlas.Web/Controllers/_AtlasBaseController.cs, line 13 
+   Info: This ASP.NET MVC action should use an anti-forgery validation attribute. Not using this attribute disables Cross Site Request Forgery (CSRF) protection and allows CSRF attacks.
+
+ ✗ [Low] Anti-forgery token validation disabled 
+   Path: AtlasV2_Backend/Atlas.Web/Controllers/_AtlasBaseController.cs, line 21 
+   Info: This ASP.NET MVC action should use an anti-forgery validation attribute. Not using this attribute disables Cross Site Request Forgery (CSRF) protection and allows CSRF attacks.
+
+ ✗ [Low] Anti-forgery token validation disabled 
+   Path: AtlasV2_Backend/Atlas.Web/Controllers/OldContentController.cs, line 15 
+   Info: This ASP.NET MVC action should use an anti-forgery validation attribute. Not using this attribute disables Cross Site Request Forgery (CSRF) protection and allows CSRF attacks.
+
+ ✗ [Low] Anti-forgery token validation disabled 
+   Path: AtlasV2_Backend/Atlas.Web/Controllers/OldContentController.cs, line 56 
+   Info: This ASP.NET MVC action should use an anti-forgery validation attribute. Not using this attribute disables Cross Site Request Forgery (CSRF) protection and allows CSRF attacks.
+
+ ✗ [Low] Anti-forgery token validation disabled 
+   Path: AtlasV2_Backend/Atlas.Web/Controllers/OldContentController.cs, line 103 
+   Info: This ASP.NET MVC action should use an anti-forgery validation attribute. Not using this attribute disables Cross Site Request Forgery (CSRF) protection and allows CSRF attacks.
+
+ ✗ [Low] Anti-forgery token validation disabled 
+   Path: AtlasV2_Backend/Atlas.Web/Controllers/OldContentController.cs, line 146 
+   Info: This ASP.NET MVC action should use an anti-forgery validation attribute. Not using this attribute disables Cross Site Request Forgery (CSRF) protection and allows CSRF attacks.
+
+ ✗ [Low] Anti-forgery token validation disabled 
+   Path: AtlasV2_Backend/Atlas.Web/Controllers/OldContentController.cs, line 190 
+   Info: This ASP.NET MVC action should use an anti-forgery validation attribute. Not using this attribute disables Cross Site Request Forgery (CSRF) protection and allows CSRF attacks.
+
+ ✗ [Low] Sensitive Cookie Without 'HttpOnly' Flag 
+   Path: AtlasV2_Backend/Atlas.Web/Controllers/AccountController.cs, line 152 
+   Info: Cookie's HttpOnly flag is set to false by default. Set it to true to protect the cookie from possible malicious code on client side.
+
+ ✗ [Low] Unsafe JQuery Plugin 
+   Path: AtlasV2_Backend/Atlas.WebApp/js/plugins/jquery-ui/jquery-ui.js, line 12168 
+   Info: Unsanitized input to JQuery plugin from options flows into $, where it may be evaluated as HTML. If the input is intended to be used as a selector, then a JQuery method that only accepts selectors should be used. If the input is intended to be used as HTML, the developer needs to ensure that it's well documented that the user is responsible for sanitizing the input.
+
+ ✗ [Low] Unsafe JQuery Plugin 
+   Path: AtlasV2_FrontEnd/js/plugins/jquery-ui/jquery-ui.js, line 12168 
+   Info: Unsanitized input to JQuery plugin from options flows into $, where it may be evaluated as HTML. If the input is intended to be used as a selector, then a JQuery method that only accepts selectors should be used. If the input is intended to be used as HTML, the developer needs to ensure that it's well documented that the user is responsible for sanitizing the input.
+
+ ✗ [Low] Unsafe JQuery Plugin 
+   Path: AtlasV2_Backend/Atlas.Web/Scripts/jquery.validate-vsdoc.js, line 132 
+   Info: Unsanitized input to JQuery plugin from options flows into $, where it may be evaluated as HTML. If the input is intended to be used as a selector, then a JQuery method that only accepts selectors should be used. If the input is intended to be used as HTML, the developer needs to ensure that it's well documented that the user is responsible for sanitizing the input.
+
+ ✗ [Low] Unsafe JQuery Plugin 
+   Path: AtlasV2_Backend/Atlas.Web/Scripts/jquery.validate-vsdoc.js, line 136 
+   Info: Unsanitized input to JQuery plugin from options flows into $, where it may be evaluated as HTML. If the input is intended to be used as a selector, then a JQuery method that only accepts selectors should be used. If the input is intended to be used as HTML, the developer needs to ensure that it's well documented that the user is responsible for sanitizing the input.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: AtlasV2_Backend/Atlas.Service.MailNotification/MailNotification.cs, line 5156 
+   Info: Do not hardcode credentials in code. Found hardcoded credential used in NetworkCredential.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: AtlasV2_Backend/Atlas.CrossCutting/AppEnums/PlanFeatureNames.cs, line 27 
+   Info: Do not hardcode credentials in code. Found hardcoded credential used in password variable declaration.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: AtlasV2_Backend/Atlas.CrossCutting/AppEnums/PlanFeatureNames.cs, line 28 
+   Info: Do not hardcode credentials in code. Found hardcoded credential used in password variable declaration.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: AtlasV2_Backend/Atlas.CrossCutting/AppEnums/PlanFeatureNames.cs, line 37 
+   Info: Do not hardcode credentials in code. Found hardcoded credential used in password variable declaration.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: AtlasV2_Backend/Atlas.CrossCutting/AppEnums/ActivitiesTypesEnum.cs, line 17 
+   Info: Do not hardcode credentials in code. Found hardcoded credential used in password variable declaration.
+
+ ✗ [Low] Use of Hardcoded Credentials 
+   Path: AtlasV2_Backend/Atlas.WebApi/Controllers/ClickSignController.cs, line 23 
+   Info: Do not hardcode credentials in code. Found hardcoded credential used in secret key variable declaration.
+
+ ✗ [Low] Sensitive Cookie in HTTPS Session Without 'Secure' Attribute 
+   Path: AtlasV2_Backend/Atlas.Web/Controllers/AccountController.cs, line 152 
+   Info: Cookie's Secure flag is set to false by default. Set it to true to protect the cookie from man-in-the-middle attacks.
+
+ ✗ [Medium] Permissive Cross-domain Policy 
+   Path: AtlasV2_FrontEnd/src/integrations/certisign-client-integration.js, line 235 
+   Info: Setting targetOrigin to "*" in postMessage may enable malicious parties to intercept the message. Consider using an exact target origin instead.
+
+ ✗ [Medium] Permissive Cross-domain Policy 
+   Path: AtlasV2_FrontEnd/src/views/reader/Reader.js, line 269 
+   Info: Setting targetOrigin to "*" in postMessage may enable malicious parties to intercept the message. Consider using an exact target origin instead.
+
+ ✗ [Medium] Permissive Cross-domain Policy 
+   Path: AtlasV2_FrontEnd/js/pdfjs2/index.js, line 150 
+   Info: Setting targetOrigin to "*" in postMessage may enable malicious parties to intercept the message. Consider using an exact target origin instead.
+
+ ✗ [Medium] Cross-site Scripting (XSS) 
+   Path: AtlasV2_Backend/Atlas.WebApp/js/plugins/jeditable/jquery.jeditable.js, line 384 
+   Info: Unsanitized input from data from a remote resource flows into html, where it is used to dynamically construct the HTML page on client side. This may result in a DOM Based Cross-Site Scripting attack (DOMXSS).
+
+ ✗ [Medium] Cross-site Scripting (XSS) 
+   Path: AtlasV2_FrontEnd/js/plugins/jeditable/jquery.jeditable.js, line 384 
+   Info: Unsanitized input from data from a remote resource flows into html, where it is used to dynamically construct the HTML page on client side. This may result in a DOM Based Cross-Site Scripting attack (DOMXSS).
+
+ ✗ [Medium] Cross-site Scripting (XSS) 
+   Path: AtlasV2_Backend/Atlas.Web/js/inspinia.js, line 103 
+   Info: Unsanitized input from data from a remote resource flows into append, where it is used to dynamically construct the HTML page on client side. This may result in a DOM Based Cross-Site Scripting attack (DOMXSS).
+
+ ✗ [Medium] Cross-site Scripting (XSS) 
+   Path: AtlasV2_Backend/Atlas.WebApp/js/inspinia.js, line 103 
+   Info: Unsanitized input from data from a remote resource flows into append, where it is used to dynamically construct the HTML page on client side. This may result in a DOM Based Cross-Site Scripting attack (DOMXSS).
+
+ ✗ [Medium] Cross-site Scripting (XSS) 
+   Path: AtlasV2_FrontEnd/src/views/Lockscreen.js, line 397 
+   Info: Unsanitized input from browser storage flows into a script 'src' attribute, where it is used to dynamically construct the HTML page on client side. This may result in a DOM Based Cross-Site Scripting attack (DOMXSS).
+
+ ✗ [Medium] Cross-site Scripting (XSS) 
+   Path: AtlasV2_FrontEnd/src/views/Lockscreen.js, line 423 
+   Info: Unsanitized input from browser storage flows into a script 'src' attribute, where it is used to dynamically construct the HTML page on client side. This may result in a DOM Based Cross-Site Scripting attack (DOMXSS).
+
+ ✗ [Medium] Cross-site Scripting (XSS) 
+   Path: AtlasV2_Backend/Atlas.WebApp/app/components/common/Navigation.js, line 64 
+   Info: Unsanitized input from browser storage flows into a script 'src' attribute, where it is used to dynamically construct the HTML page on client side. This may result in a DOM Based Cross-Site Scripting attack (DOMXSS).
+
+ ✗ [Medium] Cross-site Scripting (XSS) 
+   Path: AtlasV2_FrontEnd/src/views/settings/admin/ExportDataPanel.js, line 71 
+   Info: Unsanitized input from data from a remote resource flows into appendChild, where it is used to dynamically construct the HTML page on client side. This may result in a DOM Based Cross-Site Scripting attack (DOMXSS).
+
+ ✗ [Medium] Open Redirect 
+   Path: AtlasV2_FrontEnd/src/views/reader/ReaderAttachment.js, line 275 
+   Info: Unsanitized input from data from a remote resource flows into window.location, where it is used as an URL to redirect the user. This may result in an Open Redirect vulnerability.
+
+ ✗ [Medium] Open Redirect 
+   Path: AtlasV2_FrontEnd/src/views/reader/ReaderAttachment.js, line 288 
+   Info: Unsanitized input from data from a remote resource flows into window.location, where it is used as an URL to redirect the user. This may result in an Open Redirect vulnerability.
+
+ ✗ [Medium] Code Injection 
+   Path: AtlasV2_FrontEnd/loader.html, line 64 
+   Info: Unsanitized input from data from a remote resource flows into eval, where it is executed as JavaScript code. This may result in a Code Injection vulnerability.
+
+ ✗ [Medium] Cleartext Transmission of Sensitive Information 
+   Path: AtlasV2_FrontEnd/js/pdfjs2/shared/pdf.js, line 23020 
+   Info: http.request uses HTTP which is an insecure protocol and should not be used in code due to cleartext transmission of information. Data in cleartext in a communication channel can be sniffed by unauthorized actors. Consider using the https module instead.
+
+ ✗ [Medium] Cleartext Transmission of Sensitive Information 
+   Path: AtlasV2_FrontEnd/js/pdfjs2/shared/pdf.js, line 23077 
+   Info: http.request uses HTTP which is an insecure protocol and should not be used in code due to cleartext transmission of information. Data in cleartext in a communication channel can be sniffed by unauthorized actors. Consider using the https module instead.
+
+ ✗ [High] SQL Injection 
+   Path: AtlasV2_Backend/Atlas.WebApi/Controllers/PermissionManagerController.cs, line 57 
+   Info: Unsanitized input from an HTTP parameter flows into SqlQuery, where it is used in an SQL query. This may result in an SQL Injection vulnerability.
+
+ ✗ [High] SQL Injection 
+   Path: AtlasV2_Backend/Atlas.WebApi/Controllers/PermissionManagerController.cs, line 100 
+   Info: Unsanitized input from an HTTP parameter flows into SqlQuery, where it is used in an SQL query. This may result in an SQL Injection vulnerability.
+
+ ✗ [High] SQL Injection 
+   Path: AtlasV2_Backend/Atlas.WebApi/Controllers/PermissionManagerController.cs, line 166 
+   Info: Unsanitized input from an HTTP parameter flows into SqlQuery, where it is used in an SQL query. This may result in an SQL Injection vulnerability.
+
+ ✗ [High] SQL Injection 
+   Path: AtlasV2_Backend/Atlas.WebApi/Controllers/HomeController.cs, line 28 
+   Info: Unsanitized input from an HTTP parameter flows into SqlQuery, where it is used in an SQL query. This may result in an SQL Injection vulnerability.
+
+ ✗ [High] SQL Injection 
+   Path: AtlasV2_Backend/Atlas.WebApi/Controllers/ContentController.cs, line 46 
+   Info: Unsanitized input from an HTTP parameter flows into SqlQuery, where it is used in an SQL query. This may result in an SQL Injection vulnerability.
+
+ ✗ [High] SQL Injection 
+   Path: AtlasV2_Backend/Atlas.WebApi/Controllers/ContentController.cs, line 65 
+   Info: Unsanitized input from an HTTP parameter flows into SqlQuery, where it is used in an SQL query. This may result in an SQL Injection vulnerability.
+
+ ✗ [High] Cross-site Scripting (XSS) 
+   Path: AtlasV2_FrontEnd/js/pdfjs2/shared/pdf_viewer.js, line 1820 
+   Info: Unsanitized input from the document location flows into appendChild, where it is used to dynamically construct the HTML page on client side. This may result in a DOM Based Cross-Site Scripting attack (DOMXSS).
+
+ ✗ [High] Cross-site Scripting (XSS) 
+   Path: AtlasV2_FrontEnd/src/views/settings/admin/AdminMain.js, line 220 
+   Info: Unsanitized input from the document location flows into appendChild, where it is used to dynamically construct the HTML page on client side. This may result in a DOM Based Cross-Site Scripting attack (DOMXSS).
+
+ ✗ [High] Path Traversal 
+   Path: AtlasV2_Backend/Atlas.WebApi/Controllers/ContentSignatureRequestController.cs, line 66 
+   Info: Unsanitized input from an HTTP parameter flows into global::System.Net.File.Exists, where it is used as a path. This may result in a Path Traversal vulnerability and allow an attacker to obtain information about arbitrary files.
+
+ ✗ [High] Path Traversal 
+   Path: AtlasV2_Backend/Atlas.WebApi/Controllers/ContentSignatureRequestController.cs, line 105 
+   Info: Unsanitized input from an HTTP parameter flows into global::System.Net.File.Exists, where it is used as a path. This may result in a Path Traversal vulnerability and allow an attacker to obtain information about arbitrary files.
+
+ ✗ [High] Path Traversal 
+   Path: AtlasV2_Backend/Atlas.WebApi/Controllers/ContentSignatureRequestController.cs, line 390 
+   Info: Unsanitized input from an HTTP parameter flows into global::System.Net.File.Exists, where it is used as a path. This may result in a Path Traversal vulnerability and allow an attacker to obtain information about arbitrary files.
+
+ ✗ [High] Path Traversal 
+   Path: AtlasV2_Backend/Atlas.WebApi/Controllers/ContentSignatureRequestController.cs, line 412 
+   Info: Unsanitized input from an HTTP parameter flows into global::System.Net.File.Exists, where it is used as a path. This may result in a Path Traversal vulnerability and allow an attacker to obtain information about arbitrary files.
+
+ ✗ [High] Path Traversal 
+   Path: AtlasV2_Backend/Atlas.WebApi/Controllers/ContentSignatureRequestController.cs, line 450 
+   Info: Unsanitized input from an HTTP parameter flows into global::System.Net.File.Exists, where it is used as a path. This may result in a Path Traversal vulnerability and allow an attacker to obtain information about arbitrary files.
+
+ ✗ [High] Path Traversal 
+   Path: AtlasV2_Backend/Atlas.WebApi/Controllers/Token2FAController.cs, line 275 
+   Info: Unsanitized input from an HTTP parameter flows into global::System.Net.File.Exists, where it is used as a path. This may result in a Path Traversal vulnerability and allow an attacker to obtain information about arbitrary files.
+
+ ✗ [High] Server-Side Request Forgery (SSRF) 
+   Path: AtlasV2_Backend/Atlas.TestConsole/Program.cs, line 1463 
+   Info: Unsanitized input from an HTTP header flows into DownloadData, where it is used as an URL to perform a request. This may result in a Server-Side Request Forgery vulnerability.
+
+ ✗ [High] Server-Side Request Forgery (SSRF) 
+   Path: AtlasV2_Backend/Atlas.Business/BlueBookService.cs, line 311 
+   Info: Unsanitized input from an HTTP header flows into DownloadData, where it is used as an URL to perform a request. This may result in a Server-Side Request Forgery vulnerability.
+
+ ✗ [High] Server-Side Request Forgery (SSRF) 
+   Path: AtlasV2_Backend/Atlas.Business/AtlasSignService.cs, line 5253 
+   Info: Unsanitized input from an HTTP header flows into DownloadData, where it is used as an URL to perform a request. This may result in a Server-Side Request Forgery vulnerability.
+
+ ✗ [High] Server-Side Request Forgery (SSRF) 
+   Path: AtlasV2_Backend/Atlas.Business/AtlasSignService.cs, line 5518 
+   Info: Unsanitized input from an HTTP header flows into DownloadData, where it is used as an URL to perform a request. This may result in a Server-Side Request Forgery vulnerability.
+
+ ✗ [High] Server-Side Request Forgery (SSRF) 
+   Path: AtlasV2_Backend/Atlas.Business/InsuranceService.cs, line 1511 
+   Info: Unsanitized input from an HTTP header flows into DownloadData, where it is used as an URL to perform a request. This may result in a Server-Side Request Forgery vulnerability.
+
+ ✗ [High] Server-Side Request Forgery (SSRF) 
+   Path: AtlasV2_Backend/Atlas.Business/ContentAttachmentService.cs, line 1512 
+   Info: Unsanitized input from an HTTP header flows into DownloadData, where it is used as an URL to perform a request. This may result in a Server-Side Request Forgery vulnerability.
+
+ ✗ [High] Server-Side Request Forgery (SSRF) 
+   Path: AtlasV2_Backend/Atlas.Business/ContentAttachmentService.cs, line 1701 
+   Info: Unsanitized input from an HTTP header flows into DownloadData, where it is used as an URL to perform a request. This may result in a Server-Side Request Forgery vulnerability.
+
+ ✗ [High] Server-Side Request Forgery (SSRF) 
+   Path: AtlasV2_Backend/Atlas.Business/Helpers/DataExport.cs, line 96 
+   Info: Unsanitized input from an HTTP header flows into DownloadData, where it is used as an URL to perform a request. This may result in a Server-Side Request Forgery vulnerability.
+
+ ✗ [High] Server-Side Request Forgery (SSRF) 
+   Path: AtlasV2_Backend/Atlas.Business/Helpers/DataExport.cs, line 349 
+   Info: Unsanitized input from an HTTP header flows into DownloadData, where it is used as an URL to perform a request. This may result in a Server-Side Request Forgery vulnerability.
+
+ ✗ [High] Server-Side Request Forgery (SSRF) 
+   Path: AtlasV2_Backend/Atlas.Business/Helpers/DataExport.cs, line 652 
+   Info: Unsanitized input from an HTTP header flows into DownloadData, where it is used as an URL to perform a request. This may result in a Server-Side Request Forgery vulnerability.
+
+ ✗ [High] Server-Side Request Forgery (SSRF) 
+   Path: AtlasV2_Backend/Atlas.Business/Helpers/DataExport.cs, line 1028 
+   Info: Unsanitized input from an HTTP header flows into DownloadData, where it is used as an URL to perform a request. This may result in a Server-Side Request Forgery vulnerability.
+
+ ✗ [High] Server-Side Request Forgery (SSRF) 
+   Path: AtlasV2_Backend/Atlas.Business/Helpers/PDFGenerator.cs, line 1395 
+   Info: Unsanitized input from an HTTP header flows into DownloadData, where it is used as an URL to perform a request. This may result in a Server-Side Request Forgery vulnerability.
+
+ ✗ [High] Server-Side Request Forgery (SSRF) 
+   Path: AtlasV2_Backend/Atlas.Business/SignatureService.cs, line 252 
+   Info: Unsanitized input from an HTTP header flows into DownloadData, where it is used as an URL to perform a request. This may result in a Server-Side Request Forgery vulnerability.
+
+ ✗ [High] Server-Side Request Forgery (SSRF) 
+   Path: AtlasV2_Backend/Atlas.AzFunctions.Search/Functions/FileProcessingQueue.cs, line 625 
+   Info: Unsanitized input from an HTTP header flows into DownloadData, where it is used as an URL to perform a request. This may result in a Server-Side Request Forgery vulnerability.
+
+ ✗ [High] Server-Side Request Forgery (SSRF) 
+   Path: AtlasV2_Backend/Atlas.AzFunctions.Schedulers/Helper/WipeClientHelper.cs, line 558 
+   Info: Unsanitized input from an HTTP header flows into DownloadStringTaskAsync, where it is used as an URL to perform a request. This may result in a Server-Side Request Forgery vulnerability.
+
+ ✗ [High] Server-Side Request Forgery (SSRF) 
+   Path: AtlasV2_Backend/Atlas.AzFunctions.Search/Functions/FileProcessingQueue.cs, line 632 
+   Info: Unsanitized input from an HTTP header flows into GetAsync, where it is used as an URL to perform a request. This may result in a Server-Side Request Forgery vulnerability.
+
+ ✗ [High] Hardcoded Secret 
+   Path: AtlasV2_FrontEnd/src/views/atlassign/pages/SignDocumentMobile.js, line 110 
+   Info: Avoid hardcoding values that are meant to be secret. Found a hardcoded string used in here.
+
+ ✗ [High] Hardcoded Secret 
+   Path: AtlasV2_FrontEnd/src/views/atlassign/pages/externalSign/SignDocument.js, line 284 
+   Info: Avoid hardcoding values that are meant to be secret. Found a hardcoded string used in here.
+
+ ✗ [High] Hardcoded Secret 
+   Path: AtlasV2_FrontEnd/src/views/atlassign/pages/SignDocument.js, line 220 
+   Info: Avoid hardcoding values that are meant to be secret. Found a hardcoded string used in here.
+
+ ✗ [High] Hardcoded Secret 
+   Path: AtlasV2_FrontEnd/src/views/reader/ReaderExpress.js, line 127 
+   Info: Avoid hardcoding values that are meant to be secret. Found a hardcoded string used in here.
+
+ ✗ [High] Hardcoded Secret 
+   Path: AtlasV2_FrontEnd/src/views/atlassign/pages/RequestSign.js, line 137 
+   Info: Avoid hardcoding values that are meant to be secret. Found a hardcoded string used in here.
+
+ ✗ [High] Hardcoded Secret 
+   Path: AtlasV2_FrontEnd/src/views/atlassign/pages/externalSign/ExternalSignerDownload.js, line 131 
+   Info: Avoid hardcoding values that are meant to be secret. Found a hardcoded string used in here.
+
+ ✗ [High] Hardcoded Secret 
+   Path: AtlasV2_FrontEnd/js/pdfjs2/shared/pdf.js, line 23533 
+   Info: Avoid hardcoding values that are meant to be secret. Found a hardcoded string used in request.
+
+ ✗ [High] Hardcoded Secret 
+   Path: AtlasV2_FrontEnd/js/pdfjs2/shared/pdf.js, line 23538 
+   Info: Avoid hardcoding values that are meant to be secret. Found a hardcoded string used in request.
+
